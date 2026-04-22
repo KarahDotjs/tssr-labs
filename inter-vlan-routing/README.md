@@ -107,12 +107,3 @@ ping 192.168.20.1
 ```
 
 ![Ping réussi](ping.png)
-
-## 🪤 Pièges à retenir
-
-| Piège | Solution |
-|---|---|
-| `name IT` au mauvais niveau | S'utilise uniquement en `config-vlan` |
-| Interface routeur muette | Ne pas oublier `no shutdown` |
-| Fa0/1 reste dans VLAN 1 | Normal ! Les ports trunk n'apparaissent pas dans `show vlan brief` |
-| Lien orange | Attendre la convergence 🟢 |
