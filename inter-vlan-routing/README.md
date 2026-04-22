@@ -14,3 +14,7 @@ Sans cette configuration, PC0 et PC1 seraient invisibles l'un pour l'autre malgr
 - Configuration d'un lien trunk 802.1Q
 - Routage inter-VLAN via sous-interfaces (Router-on-a-Stick)
 - Plan d'adressage IP et configuration des passerelles
+
+## 🗺️ Topologie
+
+![Topologie Packet Tracer](topologie.png)
