@@ -65,10 +65,6 @@ interface GigabitEthernet0/0
  no shutdown
 ```
 
-Vérification :
-
-![show ip interface brief R1](show-ip-interface-brief.png)
-
 ---
 
 ## ✅ Étape 2 — Routage statique
@@ -131,7 +127,6 @@ Vérification des tables de routage (entrées `R` = RIP) :
 Ping PC à PC après migration vers RIP :
 
 ![Ping RIP depuis PC0](07_ping_rip_PC0.png)
-![Ping RIP depuis PC1](08_ping_rip_PC1.png)
 
 ---
 
